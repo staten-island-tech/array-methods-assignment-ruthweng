@@ -27,6 +27,7 @@ const students = [
             },
     ];
     
+
     students.forEach((student) => {
         console.log(student)
         student.siblings.forEach((siblings) => {
@@ -34,6 +35,6 @@ const students = [
         })
     });
     
-    const current = students.filter((student) => student.failing !== true);
-    console.log(failing) 
+    const failing = students.filter((student) => student.failing = true);
+    console.log(failing);
     
